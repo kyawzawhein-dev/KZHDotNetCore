@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KZHDotNetCore.ConsoleApp
+namespace KZHDotNetCore.ConsoleApp.AdoDotNetExamples
 {
     public class AdoDotNetExample
     {
@@ -53,7 +53,7 @@ namespace KZHDotNetCore.ConsoleApp
         {
             SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
             connection.Open();
-            String query = @"INSERT INTO [dbo].[Tbl_Blog]
+            string query = @"INSERT INTO [dbo].[Tbl_Blog]
            ([BlogTitle]
            ,[BlogAuthor]
            ,[BlogContent])
@@ -99,7 +99,7 @@ namespace KZHDotNetCore.ConsoleApp
         {
             SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
             connection.Open();
-            String query = "select * from Tbl_Blog where BlogID = @BlogID";
+            string query = "select * from Tbl_Blog where BlogID = @BlogID";
             SqlCommand sqlCommand = new SqlCommand(query, connection);
             sqlCommand.Parameters.AddWithValue("@BlogID", id);
             SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
@@ -123,7 +123,7 @@ namespace KZHDotNetCore.ConsoleApp
         {
             SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
             connection.Open();
-            String query = @"delete from Tbl_Blog where BlogID = @BlogID";
+            string query = @"delete from Tbl_Blog where BlogID = @BlogID";
             SqlCommand cmd = new SqlCommand(query, connection);
             cmd.Parameters.AddWithValue("@BlogID", id);
             int result = cmd.ExecuteNonQuery();

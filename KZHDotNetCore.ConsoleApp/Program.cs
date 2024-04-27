@@ -1,4 +1,4 @@
-﻿using KZHDotNetCore.ConsoleApp;
+﻿using KZHDotNetCore.ConsoleApp.EFCoreExamples;
 using System.Data;
 using System.Data.SqlClient;
 using System.Text;
@@ -33,10 +33,17 @@ using System.Text;
 //}
 
 
-Console.WriteLine("CRUD With AdoDotNets");
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//Console.WriteLine("CRUD With AdoDotNets");
+//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Read();
 //adoDotNetExample.Create("testing create", "kyaw zaw", "kyaw@gmail.com");
 //adoDotNetExample.Update(1, "testing update", "bo bo", "bobo@gmail.com");
 //adoDotNetExample.Delete(1);
 //adoDotNetExample.Edit(2);
+
+//DapperExample dapperExaple = new DapperExample();
+//dapperExaple.Run();
+
+EFCoreExample eFCoreExample = new EFCoreExample();
+eFCoreExample.RunEFCore();
+
