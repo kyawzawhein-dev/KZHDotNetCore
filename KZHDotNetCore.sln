@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		DotNetTrainingBatch4.sql = DotNetTrainingBatch4.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.WebApi", "KZHDotNetCore.WebApi\KZHDotNetCore.WebApi.csproj", "{A4906909-C919-41A8-8EB2-3114CE4CE1CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{9644FF71-DDC8-4E61-B1E0-B40B4CAEFCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9644FF71-DDC8-4E61-B1E0-B40B4CAEFCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9644FF71-DDC8-4E61-B1E0-B40B4CAEFCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4906909-C919-41A8-8EB2-3114CE4CE1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4906909-C919-41A8-8EB2-3114CE4CE1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4906909-C919-41A8-8EB2-3114CE4CE1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4906909-C919-41A8-8EB2-3114CE4CE1CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
