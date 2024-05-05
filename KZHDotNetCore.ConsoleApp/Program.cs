@@ -44,6 +44,6 @@ using System.Text;
 //DapperExample dapperExaple = new DapperExample();
 //dapperExaple.Run();
 
-EFCoreExample eFCoreExample = new EFCoreExample();
-eFCoreExample.RunEFCore();
+//EFCoreExample eFCoreExample = new EFCoreExample();
+//eFCoreExample.RunEFCore();
 
