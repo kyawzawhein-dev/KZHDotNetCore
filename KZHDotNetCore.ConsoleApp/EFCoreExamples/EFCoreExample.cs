@@ -12,7 +12,7 @@ internal class EFCoreExample
     private readonly AppDbContext db = new AppDbContext();
     public void RunEFCore()
     {
-        read();
+        //read();
         //edit(8);
         //create("EFCoreCreate", "EFAuthor", "EFContent");
         //update(8,"EFCoreCreatetion", "EFAuthorUpdate", "EFContentUpdate");
